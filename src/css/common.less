@@ -1,0 +1,344 @@
+.com{
+	width: 960px;
+	margin: 0 auto;
+}
+.space-between{
+	display: flex;
+	justify-content: space-between;
+}
+.middle{
+	display: flex;
+	align-items: center;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text_align{
+	display: flex;
+	justify-content: center;
+}
+.flex-end{
+	display: flex;
+	justify-content: flex-end;
+}
+.bold{
+	font-weight: 900;
+}
+.fontSize{
+	font-size: 12px;
+}
+.middle_size{
+	font-size: 14px;
+}
+#top{
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff;
+	border-bottom: 1px solid #ccc;
+	z-index: 1;
+	display: none;
+	.top{
+		height: 60px;
+		.top_flex{
+			width: 100%;
+			height: 60px;
+			.top_img{
+				width: 35%;
+				height: 60px;
+			}
+			.top_input{
+				width: 50%;
+				height: 30px;
+				border: 3px solid #d00;
+				input{
+					width: 95%;
+					height: 30px;
+					border: 0;
+
+				}
+			}
+			.top_fashion{
+				width: 15%;
+			}
+		}
+	}
+}
+/*---header---*/
+#header{
+	width: 100%;
+	height: 36px;
+	background: #f4f4f4;
+	.header{
+		height: 36px;
+		.header_left{
+			height: 36px;
+			float: left;
+			.aLeft{
+				padding-right: 10px;
+				color: #000;
+				font-size: 12px;
+				&:hover{
+					color: #d00;
+				}
+			}
+			.aRight{
+				padding:0 10px;
+				color: #000;
+				font-size: 12px;
+				&:hover{
+					color: #d00;
+				}
+			}
+			span{
+				font-size: 12px;
+				&:hover{
+					color: #d00;
+				}
+			}
+		}
+		.header_right{
+			height: 36px;
+			float: right;
+			position: relative;
+			top: 0;
+			left: 0;
+			li{
+				height: 36px;
+				line-height: 36px;
+				float: left;
+				margin: 0 10px;
+				font-size: 12px;
+			}
+			.follow_menu{
+				width: 120px;
+				height: 60px;
+				background: #9ff;
+				position: absolute;
+				left: 100px;
+				top: 36px;
+				display: none;
+			}
+		}
+	}
+}
+/*--- logo_nav ---*/
+#logo_nav{
+	width: 100%;
+	height: 134px;
+	.logo_nav{
+		height: 134px;
+		.logo{
+			height: 100px;
+			.meici_code{
+				width: 30%;
+				height: 100px;
+			}
+			.meici_logo{
+				width: 40%;
+				height: 100px;
+			}
+			.meici_search{
+				width: 30%;
+				height: 100px;
+				.search_border{
+					width: 230px;
+					height: 30px;
+					border: 1px solid #ccc;
+					margin-left: 55px;
+					input{
+						border: 0;
+						padding-left: 5px;
+					}
+				}
+			}
+		}
+		.nav{
+			height: 33px;
+			border-bottom: 1px solid #333;
+			.nav_li{
+				position: relative;
+				top: 0;
+				left: 0;
+				.active{
+					background: #d00;
+				}
+				li{
+					width: 96px;
+					height: 34px;
+					float: left;
+					a{
+						width: 96px;
+						height: 34px;
+						line-height: 34px;
+						text-align: center;
+						display: inline-block;
+						font-size: 14px;
+						color: #333;
+						// &:hover{
+						// 	color: #fff;
+						// }
+					}
+					.nav_com{
+						width: 960px;
+						height: 300px;
+						position: absolute;
+						top: 34px;
+						left: 0;
+						display: none;
+					}
+					.recent_product{
+						background: #fff;
+						width: 920px;
+						height: 280px;
+						border: 1px solid #ccc;
+						padding: 10px 20px;
+					
+						z-index: 1;
+						.ul_recent{
+							width: 920px;
+							height: 280px;
+							li{
+								font-weight: 900;
+								font-size: 12px;
+								color: #d00;
+								margin-right: 2px;
+							}
+							.line_list{
+								width: 13%;
+							}
+							.man_list{
+								width: 13%;
+								.ul_list{
+									li{
+										height: 20px;
+										line-height: 20px;
+										font-size: 12px;
+										font-weight: 100;
+										color: #000;
+										text-overflow:ellipsis;
+									}
+								}
+							}
+							.woman_list{
+								width: 13%;
+								.ul_list{
+									li{
+										height: 20px;
+										line-height: 20px;
+										font-size: 12px;
+										font-weight: 100;
+										color: #000;
+										text-overflow:ellipsis;
+									}
+								}
+							}
+							.recoment_list{
+								width: 60%;
+								height: 280px;
+								text-align: center;
+								.dl{
+									width: 33.3%;
+									height: 280px;
+									float: left;
+									dd{
+										white-space: pre-wrap;
+										word-wrap: break-word;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/*---footer---*/
+#footer{
+	width: 100%;
+	height: 311px;
+	.footer{
+		height: 311px;
+		.footer_content{
+			height: 86px;
+			padding: 30px 0 10px 0;
+			.footer_ul{
+				float: left;
+				li{
+					font-size: 12px;
+					padding: 5px 0;
+				}
+			}
+			.footer_bold{
+				font-weight: 900;
+			}
+			.ul_width{
+				width: 95px;
+				height: 75px;
+			}
+			.order_line{
+				width: 240px;
+				height: 86px;
+				text-align: center;
+				border-left: 1px solid #ccc;
+			}
+			.line_service{
+				width: 146px;
+				height: 86px;
+				text-align: center;
+				border-left: 1px solid #ccc;
+			}
+			.meici_app{
+				width: 191px;
+				height: 86px;
+				text-align: center;
+				border-left: 1px solid #ccc;
+			}
+			
+		}
+		.footer_nav{
+			width: 960px;
+			heitght: 22px;
+			margin: 20px 0;
+			.nav_ul{
+				width: 810px;
+				height: 22px;
+				margin: 3px 75px;
+				background: #f4f4f4;
+				.footerNav{
+					width: 90px;
+					height: 22px;
+					line-height: 22px;
+					float: left;
+					text-align: center;
+					font-size: 12px;
+					&:hover{
+						background: #ccc;
+						a{
+							&:hover{
+								color: #fff;
+							}
+						}
+					}
+				}
+			}
+
+		}
+		.footer_cooperate{
+			.cooperate_center{
+				.cooperate_p{
+					font-size: 12px;
+					height: 20px;
+				}
+				.pic{
+					height: 60px;
+				}
+			}
+		}
+	}
+}
